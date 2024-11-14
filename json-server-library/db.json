@@ -1,0 +1,84 @@
+{
+  "Books": [
+    {
+      "id": 101,
+      "bookName": "Romeo and Juliet",
+      "author": "William Shakespeare",
+      "category": "Romance",
+      "price": 30
+    },
+    {
+      "id": 102,
+      "bookName": "Peak",
+      "author": "Roland Smith",
+      "category": "Adventure",
+      "price": 27
+    },
+    {
+      "id": 103,
+      "bookName": "Pigeon P.I.",
+      "author": "Meg McLaren",
+      "category": "Suspense",
+      "price": 45
+    },
+    {
+      "id": 104,
+      "bookName": "Fever 1973",
+      "author": "Laurie Anderson",
+      "category": "History",
+      "price": 48.99
+    },
+    {
+      "id": 105,
+      "bookName": "Bourne Identity",
+      "author": "Robert Ludlum",
+      "category": "Action & Thriller",
+      "price": 65
+    },
+    {
+      "id": 106,
+      "bookName": "Hamlet",
+      "author": "William Shakespeare",
+      "category": "Drama",
+      "price": 55
+    }
+  ],
+  "Customers": [
+    {
+      "id": 201,
+      "CusName": "Andrew Bill",
+      "purchaseDate": "2020-07-01",
+      "boukId": 101
+    },
+    {
+      "id": 202,
+      "CusName": "Sam Mendes",
+      "purchaseDate": null,
+      "boukId": null
+    },
+    {
+      "id": 203,
+      "CusName": "Bob Willis",
+      "purchaseDate": "2020-07-02",
+      "boukId": 102
+    },
+    {
+      "id": 204,
+      "CusName": "Jacob Martin",
+      "purchaseDate": "2020-07-02",
+      "boukId": 103
+    },
+    {
+      "id": 205,
+      "CusName": "Robert Max",
+      "purchaseDate": null,
+      "boukId": null
+    },
+    {
+      "id": 206,
+      "CusName": "Micheal Bay",
+      "purchaseDate": "2020-07-07",
+      "boukId": 105
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+
+    <DOCTYPE html>
+        <html lang="en">
+
+        
+      <header>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <style>
+            .cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  grid-gap: 20px;
+}
+
+.card {
+  display: grid;
+  grid-template-rows: max-content 200px 1fr;
+}
+
+.card img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+ 
+  .styled {
+  border: 0;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 10px;
+  background-color: rgba(220, 0, 0, 1);
+  background-image: linear-gradient(
+    to top left,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) 30%,
+    rgba(0, 0, 0, 0)
+  );
+  box-shadow:
+    inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+    inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.styled:hover {
+  background-color: rgba(255, 0, 0, 1);
+}
+
+.styled:active {
+  box-shadow:
+    inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+    inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+
+
+        </style>
+      </header>
+      <body>
+      <h2>DABATAXI SERVICES</h2>
+      <div class="cards">
+        <article class="card">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMtKywiDK2C_XAUBYAC5dxbFXobDriY2eKbw&s" alt="LUXURY">
+      <div class="content">
+        <p> we are launching dabataxi services to provide people in morocco with services of transportation they need at anytime . </p>
+      </div>
+  
+    </article>
+  
+    <article class="card">
+      <header>
+        <h2>luxury</h2>
+      </header>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpYqkV4ci2165MHjVwn6HZrf1ohGXJSaTEag&s" alt="luxury">
+      <div class="content">
+        <p>Excellent services that draw a smile on faces .</p>
+      </div>
+      <button class="styled" type="button">place order now</button>
+    </article>
+  
+    <article class="card">
+      <header>
+        <h2>grade B cars</h2>
+      </header>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_8j0ejhTjHq0fpkO_mULvs1ygsPlAGFW7WA&s" alt="grade b cars">
+      <div class="content">
+        <p>comfortable cars and affordable that you can relay on to go to work or to go around the city</p>
+      </div>
+      <button class="styled" type="button">place order now</button>
+    </article>
+    <article class="card">
+      <header>
+        <h2>grade c cars</h2>
+      </header>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpMsp_fWQUnuO3eyeaGDbJre4UVw8j0Zv7bg&s" alt="standard">
+      <div class="content">
+        <p> with standard cars you spend less and save a lot </p>
+      </div>
+      <button  class="styled" type="  button">place order now</button>
+    </article>
+  </div>
+  </body>
+        </html>

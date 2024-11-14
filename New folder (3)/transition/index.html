@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transitions</title>
+    <style>
+        .container {
+            display: flex;
+            height: 30vh;
+            width: 100vw;
+        }
+
+        div {
+            height: 100px;
+            width: 100px;
+        }
+
+        #box1 {
+
+            background-color: green;
+            transition-property: background-color;
+            transition-duration: 2s;
+        }
+
+        #box1:hover {
+            background-color: lightskyblue;
+        }
+
+        #box2 {
+            background-color: yellow;
+            transition-property: font-size;
+            transition-duration: 2s;
+        }
+
+        #box2:hover {
+            font-size: 45px;
+        }
+
+        #box3 {
+            background-color: pink;
+            transition-property: width, height;
+            transition-duration: 2s;
+        }
+
+        #box3:hover {
+            width: 200px;
+            height: 200px;
+        }
+
+        #box4 {
+            background-color: blue;
+            transition-duration: 0.6s;
+        }
+
+        #box4:hover {
+            transform: translateX(100px);
+        }
+
+        #box5 {
+            background-color: red;
+            transition-duration: 3s;
+        }
+
+        #box5:hover {
+            transform: rotate(360deg);
+        }
+
+        #box6 {
+            color: black;
+            background-color: white;
+            border: 2px solid #4284F4;
+            /* transition-property: color, background-color, border-color; */
+            transition-duration: 1s;
+        }
+
+        #box6:hover {
+            color: white;
+            background-color: black;
+            border-color: #FFAB40;
+            transform: rotate(360deg);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div id="box1">box 1</div>
+        <div id="box2">box 2</div>
+        <div id="box3">box 3</div>
+        <div id="box4">box 4</div>
+        <div id="box5">box 5</div>
+    </div>
+
+    <div id="box6">Multiple Transition Properties</div>
+</body>
+
+</html>
+Collapse
+
+
+
+
+
+
+
+React
+
+Reply
+
+
+
+
+
+
+
+
